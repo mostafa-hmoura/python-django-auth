@@ -1,0 +1,19 @@
+
+
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+
+{"username": "mostafa", "password": "123"}
+
+###
+
+POST http://127.0.0.1:8000/signup
+Content-Type: application/json
+
+{"username": "mostafa", "password": "123", "email": "mostafa@gmail.com"}
+
+###
+
+GET http://127.0.0.1:8000/test_token 
+Content-Type: application/json 
+Authorization: token fa4b12ac9a47b955a50ebc373ead5ccf70dc16a3
